@@ -1,8 +1,8 @@
 ---
-layout: '../layouts/BlogPost.astro'
 title: 'AI 不能胜任一对一会谈'
 description: '探讨即使是最先进的 AI 也无法触及的人类交流的细微差别。'
 pubDate: 'Mar 17 2026'
+heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 
 即使是最先进的 AI，凭借其所有的算法和数据处理能力，在复制人类一对一的交流的复杂性时，仍然显得捉襟见肘。为什么会这样？
