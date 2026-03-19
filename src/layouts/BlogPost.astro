@@ -15,32 +15,55 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 		<BaseHead title={title} description={description} />
 		<style>
 			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
-			.prose {
-				width: 720px;
+				width: 800px;
 				max-width: calc(100% - 2em);
 				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
+			}
+			.prose {
+				font-size: 1.15rem;
+				line-height: 1.8;
+				color: #374151; /* Softer slate gray for readable long-form text */
+				padding: 1em 0;
+			}
+			.prose p {
+				margin-bottom: 1.5em;
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
+				margin-bottom: 2em;
+				padding: 1.5em 0;
 				text-align: center;
-				line-height: 1;
+				line-height: 1.3;
 			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				font-size: 2.2rem;
+				font-weight: 700;
+				color: #111827;
 			}
 			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				margin-bottom: 1em;
+				color: #6b7280;
+				font-size: 0.95rem;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
 			}
 			.last-updated-on {
 				font-style: italic;
+			}
+			hr {
+				border: none;
+				border-top: 1px solid #e5e7eb;
+				margin: 2em 0;
+			}
+			/* Styling code blocks or quotes in blog posts */
+			.prose blockquote {
+				border-left: 4px solid var(--accent);
+				background: #f9fafb;
+				padding: 1rem 1.5rem;
+				border-radius: 0 8px 8px 0;
+				margin: 1.5rem 0;
+				font-style: italic;
+				color: #4b5563;
 			}
 		</style>
 	</head>
