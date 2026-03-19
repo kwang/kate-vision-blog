@@ -1,5 +1,5 @@
 ---
-title: 'Debugging the Soul: 3 Movies for When You Need a Mental Reboot'
+title: 'Debugging the Soul: 4 Movies for When You Need a Mental Reboot'
 description: 'Sometimes you need to step away from the IDE, ignore the Slack pings, and remember that humans are wonderfully absurd and full of heart.'
 pubDate: 'Mar 19 2026'
 ---
@@ -8,7 +8,7 @@ We spend our days as Engineering Managers optimizing pipelines, untangling micro
 
 But sometimes, the logic breaks you. Sometimes, you just need a mental reboot. You don’t need a dark, satirical mirror held up to the tech industry (we live that every day). You need something smart, genuinely funny, and surprisingly warm. You need to remember that humans, despite their chaotic nature, are actually kind of wonderful.
 
-If your favorite mental escape is the brilliant, interwoven charm of *Love Actually*, here are three masterclasses in smart, heartwarming comedy that will successfully defragment your soul this weekend.
+If your favorite mental escape is the brilliant, interwoven charm of *Love Actually*, here are four masterclasses in smart, heartwarming comedy that will successfully defragment your soul this weekend.
 
 ### 1. About Time (2013)
 **The Ultimate `Ctrl+Z` Power Used for Gentle, Everyday Magic**
@@ -35,6 +35,13 @@ A middle-aged man (Steve Carell) going through a devastating divorce meets a smo
 
 The way these independent "threads" slowly weave together until they violently and hilariously crash in a backyard brawl during the last 20 minutes is a work of architectural genius. It proves that love makes everyone act like an idiot, but beneath the absurdity, there is a tremendous amount of heart. 
 
+### 4. B for Busy (爱情神话, 2021)
+**A Masterclass in High-EQ Banter and Effortless Shanghainese Charm**
+
+If you want a Chinese comedy that completely bypasses the usual tired tropes of family drama and societal pressure, this is a rare gem. It follows a middle-aged art teacher in Shanghai and his daily, effortless sparring with three independent, clear-headed women over coffee and pastries.
+
+This is the Chinese equivalent of a Richard Curtis script. The dialogue is razor-sharp (spoken entirely in the Shanghainese dialect), full of self-deprecation, subtle probing, and witty retorts. It feels like watching a high-IQ tennis match between adults who have figured out their lives but are still figuring out each other. It’s a beautifully relaxed film about dealing with life's little "bugs" with grace and humor.
+
 ***
 
 **The Takeaway**
@@ -45,13 +52,13 @@ Close the laptop. Turn off notifications. Let your algorithms sleep. Go watch pe
 
 *(Chinese Translation / 中文翻译)*
 
-**给灵魂杀毒：当你需要重启大脑时必看的 3 部电影**
+**给灵魂杀毒：当你需要重启大脑时必看的 4 部电影**
 
 作为研发经理（Engineering Manager），我们每天都在优化流水线、理清微服务、并试图让那些只通过 Jira 工单和阴阳怪气的代码审查来沟通的人类达成共识（Alignment）。这是一种高度逻辑化，但也极其容易让人变得愤世嫉俗的生存状态。
 
 但有时候，这种绝对的逻辑会把你逼疯。有时候，你就是需要重启一下大脑（Mental Reboot）。你不需要那些深度讽刺科技圈的黑色幽默（因为我们每天都在经历这些），你需要的是一些聪明、真正好笑，且极其温暖的东西。你需要被提醒：人类虽然混乱且荒谬，但其实也挺可爱的。
 
-如果你最喜欢的精神避难所是《真爱至上》（Love Actually）那种精妙交织的英式魅力，那么这个周末，请用这三部充满智慧与温情的喜剧神作，来给你的灵魂做一次碎片整理（Defragment）。
+如果你最喜欢的精神避难所是《真爱至上》（Love Actually）那种精妙交织的英式魅力，那么这个周末，请用这 4 部充满智慧与温情的喜剧神作，来给你的灵魂做一次碎片整理（Defragment）。
 
 ### 1. 《时空恋旅人》（About Time, 2013）
 **把终极的 `Ctrl+Z` 撤销键，用在最温柔的日常魔法上**
@@ -77,6 +84,13 @@ Close the laptop. Turn off notifications. Let your algorithms sleep. Go watch pe
 一个遭遇中年危机的离婚老实人（史蒂夫·卡瑞尔 饰），在酒吧遇到一个海王高富帅（瑞恩·高斯林 饰）。海王决定收他为徒，教他如何重拾男性魅力。与此同时，老实人的儿子在暗恋保姆，保姆在暗恋老实人，而海王自己却栽在了一个对他毫无兴趣的学霸女孩（艾玛·斯通 饰）手里。
 
 这些独立的故事线（Threads）在电影最后 20 分钟的那场“后院大乱斗”里，以一种极其荒诞、爆笑又完全符合逻辑的方式，全部 Crash（碰撞）在了一起，简直是剧本架构的艺术品。它证明了爱让人变得像个白痴，但在这些荒谬之下，底色是极其温暖的。
+
+### 4. 《爱情神话》（B for Busy, 2021）
+**高情商拉扯与海派松弛感的大师课**
+
+如果你想看一部完全避开国产剧“催婚、出轨、原生家庭”狗血套路的中国喜剧，这是一块极其罕见的瑰宝。它讲述了一个教画画的上海爷叔，和三个性格迥异、极其独立清醒的女人之间，伴随着咖啡和蝴蝶酥展开的日常交锋。
+
+这简直就是中国版的理查德·柯蒂斯剧本。台词极度聪明（全吴侬软语上海话），成年人之间的互相试探、自嘲和拉扯，写得像是一场没有硝烟的高智商网球赛。里面没有人在为生存发愁，大家都在体面而幽默地处理着各自生活的“小 Bug”。极其松弛，极度治愈。
 
 ***
 
