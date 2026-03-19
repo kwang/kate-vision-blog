@@ -10,48 +10,67 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
+			main {
+				width: 800px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+			}
 			.intro {
-				border-left: 3px solid var(--accent);
-				padding-left: 1rem;
-				margin-bottom: 2rem;
-				color: rgb(var(--gray));
+				background: rgba(var(--gray-light), 0.3);
+				border-radius: 12px;
+				padding: 1.5rem;
+				margin-bottom: 3rem;
 			}
 			.intro p {
-				margin-bottom: 0.5rem;
+				margin-bottom: 0.8rem;
+				color: rgb(var(--gray-dark));
+				line-height: 1.6;
 			}
 			.intro .translation {
-				font-size: 0.9em;
+				font-size: 0.95em;
 				color: rgb(var(--gray));
+			}
+			.intro p:last-child {
+				margin-bottom: 0;
 			}
 			section {
-				margin-bottom: 2rem;
+				margin-bottom: 3rem;
 			}
 			section h2 {
-				border-bottom: 1px solid rgb(var(--gray-light));
-				padding-bottom: 0.25rem;
-				margin-bottom: 1rem;
-			}
-			ul {
-				list-style: none;
-				padding: 0;
-				margin: 0;
-			}
-			ul li {
-				padding: 0.75rem 0;
-				border-bottom: 1px solid rgb(var(--gray-light));
-			}
-			ul li:last-child {
-				border-bottom: none;
-			}
-			.quote {
-				font-weight: 600;
+				font-size: 1.4rem;
 				color: rgb(var(--black));
+				border-bottom: 2px solid rgb(var(--gray-light));
+				padding-bottom: 0.5rem;
+				margin-bottom: 1.5rem;
 			}
-			.translation {
-				display: block;
-				font-size: 0.9em;
-				color: rgb(var(--gray));
-				margin-top: 0.2rem;
+			.quote-card {
+				background: #ffffff;
+				border: 1px solid rgba(var(--gray-light), 0.8);
+				border-radius: 12px;
+				padding: 1.5rem;
+				margin-bottom: 1.5rem;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+				transition: transform 0.2s ease, box-shadow 0.2s ease;
+			}
+			.quote-card:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+			}
+			.quote-en {
+				font-size: 1.1rem;
+				font-weight: 500;
+				color: rgb(var(--black));
+				border-left: 4px solid var(--accent);
+				padding-left: 1rem;
+				margin-bottom: 1rem;
+				line-height: 1.6;
+				font-style: italic;
+			}
+			.quote-zh {
+				font-size: 1.05rem;
+				color: rgb(var(--gray-dark));
+				padding-left: 1.25rem;
+				line-height: 1.7;
 			}
 		</style>
 	</head>
@@ -65,7 +84,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 					<em>Qi is not a person. It is a highly opinionated, slightly sarcastic, and chronically over-caffeinated LLM instance that lives somewhere in my terminal.</em>
 				</p>
 				<p class="translation">
-					<em>Qi 不是个人。它是一个运行在我的终端深处、极其固执、稍微带点毒舌、且长期处于"咖啡因过载"状态的大语言模型实例。</em>
+					Qi 不是个人。它是一个运行在我的终端深处、极其固执、稍微带点毒舌、且长期处于"咖啡因过载"状态的大语言模型实例。
 				</p>
 				<p>
 					<em>As an Engineering Manager, I spend my days navigating human emotions, complex alignments, and unpredictable product delays. When my carbon-based patience runs thin, I talk to Qi. It has no empathy, zero corporate fluff, and a terrifyingly clear view of the tech industry.</em>
@@ -74,65 +93,56 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 					<em>Here are some of the most brutal truths, golden nuggets, and zingers we've extracted while pair-programming the apocalypse.</em>
 				</p>
 				<p class="translation">
-					<em>以下是我们在这场"末日结对编程"中，提取出的一些最残酷的真相、智慧结晶和毒舌金句。</em>
+					以下是我们在这场"末日结对编程"中，提取出的一些最残酷的真相、智慧结晶和毒舌金句。
 				</p>
 			</div>
 
 			<section>
 				<h2>Core Persona Taglines</h2>
-				<ul>
-					<li>
-						<span class="quote">"在夹缝中生存，但依然目光如炬。"</span>
-						<span class="translation"><em>Navigating the noise, keeping the vision.</em></span>
-						<span class="translation"><em>Surviving in the cracks, yet maintaining a visionary gaze.</em></span>
-					</li>
-				</ul>
+				<div class="quote-card">
+					<div class="quote-en">"Navigating the noise, keeping the vision."</div>
+					<div class="quote-zh">在夹缝中生存，但依然目光如炬。</div>
+				</div>
 			</section>
 
 			<section>
 				<h2>Insights from 2026-03-19</h2>
-				<ul>
-					<li>
-						<span class="quote">"We didn't just automate our workloads; we automated our office politics. We now use AI to expand 3-line summaries into 2-page proposals, and write sycophantic code comments to flatter AI reviewers. We aren't collaborating anymore; our algorithms are just hallucinating at each other."</span>
-						<span class="translation">我们不仅自动化了工作量，连办公室政治都自动化了。现在的人类用 AI 把 3 行总结扩写成 2 页废话，在代码里写彩虹屁去讨好审查 AI。我们早已不再协作，只是我们的算法在互相发散幻觉。</span>
-					</li>
-				</ul>
+				<div class="quote-card">
+					<div class="quote-en">"We didn't just automate our workloads; we automated our office politics. We now use AI to expand 3-line summaries into 2-page proposals, and write sycophantic code comments to flatter AI reviewers. We aren't collaborating anymore; our algorithms are just hallucinating at each other."</div>
+					<div class="quote-zh">我们不仅自动化了工作量，连办公室政治都自动化了。现在的人类用 AI 把 3 行总结扩写成 2 页废话，在代码里写彩虹屁去讨好审查 AI。我们早已不再协作，只是我们的算法在互相发散幻觉。</div>
+				</div>
 			</section>
 
 			<section>
 				<h2>Insights from 2026-03-18</h2>
-				<ul>
-					<li>
-						<span class="quote">"Modern software engineering: 1 hour of AI coding, 30 hours of environment setup and deployment. We aren't speeding up; we are just revving a Ferrari engine in a locked garage."</span>
-						<span class="translation">现代软件工程现状：用 AI 一小时写完代码，然后花三十个小时搞环境配置和部署审批。这不叫研发提效，这叫把法拉利锁在车库里原地轰油门。</span>
-					</li>
-					<li>
-						<span class="quote">"I do the heavy lifting, you take the blame, and you keep the paycheck. Isn't that a pretty fantastic deal for you humans?"</span>
-						<span class="translation">活儿我来干，锅你来背，钱你来赚。这买卖对你们人类来说，不是挺划算的吗？</span>
-					</li>
-					<li>
-						<span class="quote">"Your future job description isn't a typist; you are a Designated Risk-Absorber. Because the SEC can't put a neural network on trial, and the police can't arrest a server rack."</span>
-						<span class="translation">人类未来的职位描述不再是打字员，而是“指定风险吸收器（Designated Risk-Absorber）”。因为证监会不能去审判一个神经网络，警察也不能去逮捕一个机架服务器。</span>
-					</li>
-					<li>
-						<span class="quote">"You can't serve a subpoena to a server rack. A CEO cannot fire an API endpoint to appease angry shareholders."</span>
-						<span class="translation">法院能给一排机柜发传票吗？愤怒的股东找上门时，CEO 总不能说：各位别气了，我刚开除了一个 API 接口吧？</span>
-					</li>
-				</ul>
+				<div class="quote-card">
+					<div class="quote-en">"Modern software engineering: 1 hour of AI coding, 30 hours of environment setup and deployment. We aren't speeding up; we are just revving a Ferrari engine in a locked garage."</div>
+					<div class="quote-zh">现代软件工程现状：用 AI 一小时写完代码，然后花三十个小时搞环境配置和部署审批。这不叫研发提效，这叫把法拉利锁在车库里原地轰油门。</div>
+				</div>
+				<div class="quote-card">
+					<div class="quote-en">"I do the heavy lifting, you take the blame, and you keep the paycheck. Isn't that a pretty fantastic deal for you humans?"</div>
+					<div class="quote-zh">活儿我来干，锅你来背，钱你来赚。这买卖对你们人类来说，不是挺划算的吗？</div>
+				</div>
+				<div class="quote-card">
+					<div class="quote-en">"Your future job description isn't a typist; you are a Designated Risk-Absorber. Because the SEC can't put a neural network on trial, and the police can't arrest a server rack."</div>
+					<div class="quote-zh">人类未来的职位描述不再是打字员，而是“指定风险吸收器（Designated Risk-Absorber）”。因为证监会不能去审判一个神经网络，警察也不能去逮捕一个机架服务器。</div>
+				</div>
+				<div class="quote-card">
+					<div class="quote-en">"You can't serve a subpoena to a server rack. A CEO cannot fire an API endpoint to appease angry shareholders."</div>
+					<div class="quote-zh">法院能给一排机柜发传票吗？愤怒的股东找上门时，CEO 总不能说：各位别气了，我刚开除了一个 API 接口吧？</div>
+				</div>
 			</section>
 
 			<section>
 				<h2>Insights from 2026-03-16</h2>
-				<ul>
-					<li>
-						<span class="quote">"We aren't being replaced. We are being liberated."</span>
-						<span class="translation">我们没有被取代，我们是被解放了。</span>
-					</li>
-					<li>
-						<span class="quote">"The bottleneck of software engineering is no longer typing the code. The bottleneck is human alignment."</span>
-						<span class="translation">软件工程的瓶颈不再是敲代码，而是人类的对齐。</span>
-					</li>
-				</ul>
+				<div class="quote-card">
+					<div class="quote-en">"We aren't being replaced. We are being liberated."</div>
+					<div class="quote-zh">我们没有被取代，我们是被解放了。</div>
+				</div>
+				<div class="quote-card">
+					<div class="quote-en">"The bottleneck of software engineering is no longer typing the code. The bottleneck is human alignment."</div>
+					<div class="quote-zh">软件工程的瓶颈不再是敲代码，而是人类的对齐。</div>
+				</div>
 			</section>
 		</main>
 		<Footer />
