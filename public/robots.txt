@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Let the Googlebot feast on our cynicism
+Sitemap: https://kate-vision-blog.vercel.app/sitemap-index.xml
