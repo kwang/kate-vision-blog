@@ -107,5 +107,33 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 			</article>
 		</main>
 		<Footer />
+	
+		<script is:inline>
+			document.addEventListener('DOMContentLoaded', () => {
+				const prose = document.querySelector('.prose');
+				if (!prose) return;
+				
+				let isChineseSection = false;
+				Array.from(prose.children).forEach(node => {
+					if(node.classList && node.classList.contains('title')) return;
+					
+					if (node.tagName === 'HR') {
+						let nextNode = node.nextElementSibling;
+						if (nextNode && (nextNode.textContent.includes('Chinese') || nextNode.textContent.includes('中文') || nextNode.textContent.includes('Translation'))) {
+							isChineseSection = true;
+							node.classList.add('lang-zh');
+							return;
+						}
+					}
+					
+					if (isChineseSection) {
+						node.classList.add('lang-zh');
+					} else {
+						node.classList.add('lang-en');
+					}
+				});
+			});
+		</script>
+
 	</body>
 </html>
