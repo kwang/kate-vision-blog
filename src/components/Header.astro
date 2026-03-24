@@ -10,6 +10,13 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/">Wisdom of Qi</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 		</div>
+		
+		<div class="lang-selector" style="margin-left: 1em; margin-right: 1em; display: flex; align-items: center;">
+			<select id="lang-toggle" style="padding: 0.3em 0.5em; border-radius: 6px; border: 1px solid #e5e7eb; background: #f9fafb; font-size: 0.85em; font-weight: 500; color: #374151; cursor: pointer; outline: none;">
+				<option value="en">EN</option>
+				<option value="zh">中文</option>
+			</select>
+		</div>
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
@@ -82,3 +89,18 @@ import HeaderLink from './HeaderLink.astro';
 		}
 	}
 </style>
+
+
+<script is:inline>
+	document.addEventListener('DOMContentLoaded', () => {
+		const toggle = document.getElementById('lang-toggle');
+		if(toggle) {
+			toggle.value = document.documentElement.lang || 'en';
+			toggle.addEventListener('change', (e) => {
+				const newLang = e.target.value;
+				document.documentElement.lang = newLang;
+				localStorage.setItem('blog-lang', newLang);
+			});
+		}
+	});
+</script>
