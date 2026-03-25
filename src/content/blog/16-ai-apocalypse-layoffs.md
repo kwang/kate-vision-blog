@@ -1,5 +1,6 @@
 ---
 title: 'Breaking: Block Axes 40% of Staff—The "Smaller Teams" Lie Has Begun'
+titleZh: '快讯：Block 裁员40%——"小团队"谎言的开始'
 description: '4,000 engineers just got replaced by an API. The Silicon Valley AI apocalypse is no longer a prediction; it is today’s headline.'
 pubDate: 'Mar 24 2026'
 ---

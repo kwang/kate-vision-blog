@@ -1,5 +1,6 @@
 ---
 title: 'The Rise of AI Office Politics: When Your Agents Hate Each Other'
+titleZh: 'AI 宫斗时代：当你的智能体互相看不顺眼'
 description: 'We automated the code. Then we automated the code reviews. Now, we have automated passive-aggression.'
 pubDate: 'Mar 19 2026'
 ---

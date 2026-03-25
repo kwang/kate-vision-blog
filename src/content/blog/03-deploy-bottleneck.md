@@ -1,5 +1,6 @@
 ---
 title: '1 Hour Coding, 20 Hours Environment Setup, 10 Hours Deploying'
+titleZh: '1小时写代码，20小时配环境，10小时等部署'
 description: 'We gave AI a Ferrari for writing code, but we still have to spend 20 hours finding the keys before driving it on a dirt road.'
 pubDate: 'Mar 18 2026'
 ---

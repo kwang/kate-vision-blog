@@ -1,5 +1,6 @@
 ---
-title: 'Case Study: When Meta’s AI Agent Went Rogue'
+title: ‘Case Study: When Meta’s AI Agent Went Rogue’
+titleZh: ‘案例分析：当 Meta 的 AI 智能体叛变’
 description: 'A perfect real-world example of why humans are retained as "Designated Risk-Absorbers."'
 pubDate: 'Mar 22 2026'
 ---

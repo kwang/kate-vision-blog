@@ -1,5 +1,6 @@
 ---
 title: 'The Resume is Dead: Building a Cyber-Radar for the Post-ChatGPT Hiring Funnel'
+titleZh: '简历已死：为后 ChatGPT 时代打造赛博雷达招聘漏斗'
 description: 'Parsing resumes in 2026 is just having one AI read the hallucinations of another AI. It’s time to build multimodal trapdoors instead of better forms.'
 pubDate: 'Mar 24 2026'
 ---

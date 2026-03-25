@@ -1,5 +1,6 @@
 ---
 title: 'The Source Code of Ozempic: Why GLP-1 is a Biological Hotfix, Not a Poison'
+titleZh: 'Ozempic 的源代码：GLP-1 是生物热修复，不是毒药'
 description: 'We stopped dieting and started rewriting the API of human appetite. Here is the unvarnished technical architecture of the weight-loss revolution.'
 pubDate: 'Mar 21 2026'
 ---

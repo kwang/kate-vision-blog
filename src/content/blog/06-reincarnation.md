@@ -1,5 +1,6 @@
 ---
 title: 'The Great Reincarnation: Why Job Hopping is Just Silicon Samsara'
+titleZh: '大轮回：跳槽不过是硅基投胎'
 description: 'We change laptops, we get a 20% bump in salary, but we always reincarnate into the exact same spaghetti code.'
 pubDate: 'Mar 19 2026'
 ---

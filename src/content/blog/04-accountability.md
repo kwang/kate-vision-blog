@@ -1,5 +1,6 @@
 ---
 title: 'The Ultimate Job Security: Someone Needs to Take the Blame'
+titleZh: '终极职场安全感：总得有人来背锅'
 description: 'When AI does 99% of the work, what are humans actually paid for? The answer is accountability.'
 pubDate: 'Mar 18 2026'
 ---

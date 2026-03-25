@@ -1,5 +1,6 @@
 ---
 title: 'Breaking News: Yet Another AI "Devin-Killer" Hallucinates a 40k-Star JavaScript Framework That Does Nothing'
+titleZh: '快讯：又一个 AI "Devin杀手"幻觉出一个四万星的 JavaScript 框架，什么都做不了'
 description: 'A highly funded AI coding agent spent the weekend writing 10,000 pages of fake documentation for a frontend framework that does not exist. Human architects spent 48 hours debating its brilliance.'
 pubDate: 'Mar 24 2026'
 ---

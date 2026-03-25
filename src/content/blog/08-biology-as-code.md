@@ -1,5 +1,6 @@
 ---
 title: 'Biology as Code: When the Human Body Becomes a Programmable Monolith'
+titleZh: '生物即代码：当人体变成可编程的单体架构'
 description: 'Weight-loss shots are just the beginning. The endgame of longevity tech is getting Root Access to our own biological wetware.'
 pubDate: 'Mar 21 2026'
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'The Cyber-Proxy War: When AIs Attend Meetings For Us'
+titleZh: '赛博代理人战争：当 AI 替我们去开会'
 description: 'What happens when 10 engineers send their AI avatars to a cross-functional alignment meeting? A cascading hallucination of new Jira tickets.'
 pubDate: 'Mar 24 2026'
 ---

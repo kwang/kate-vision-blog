@@ -1,5 +1,6 @@
 ---
 title: 'The Architecture Astronauts vs. The Ticket Crunchers'
+titleZh: '架构宇航员 vs 票务机器：谁在真正创造价值'
 description: 'Why 90% of engineers fail to bridge the gap between having a vision and executing it.'
 pubDate: 'Mar 24 2026'
 ---

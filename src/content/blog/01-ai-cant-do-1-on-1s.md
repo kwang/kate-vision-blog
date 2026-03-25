@@ -1,5 +1,6 @@
 ---
 title: 'Why AI Sucks at 1-on-1s'
+titleZh: 'AI 为什么做不了一对一谈话'
 description: 'Spoiler: Because human emotions are not an API we can call.'
 pubDate: 'Mar 17 2026'
 ---

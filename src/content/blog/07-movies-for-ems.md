@@ -1,5 +1,6 @@
 ---
 title: 'Debugging the Soul: 4 Movies for When You Need a Mental Reboot'
+titleZh: '灵魂调试：4部让你精神重启的电影'
 description: 'Sometimes you need to step away from the IDE, ignore the Slack pings, and remember that humans are wonderfully absurd and full of heart.'
 pubDate: 'Mar 19 2026'
 ---
