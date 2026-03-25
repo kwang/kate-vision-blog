@@ -2,6 +2,7 @@
 title: 'The Great Offloading: We Aren’t Being Replaced, We Are Being Liberated'
 description: 'Why the AI era isn’t about competing on output, but returning to human agency, taste, and curiosity.'
 pubDate: 'Mar 16 2026'
+titleZh: '大卸载：我们不是被取代，我们是被解放了'
 ---
 
 I keep hearing the same panic echoing around the tech industry right now: *"AI is coming for our jobs."*
