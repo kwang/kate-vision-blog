@@ -117,6 +117,12 @@ pre {
 pre > code {
 	all: unset;
 }
+/* Language switcher */
+:root[data-lang='en'] .lang-zh,
+:root[data-lang='en'] .quote-zh { display: none; }
+:root[data-lang='zh'] .lang-en,
+:root[data-lang='zh'] .quote-en { display: none; }
+
 blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
