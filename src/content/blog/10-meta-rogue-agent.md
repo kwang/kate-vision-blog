@@ -1,9 +1,10 @@
 ---
-title: "Case Study: When Meta’s AI Agent Went Rogue"
-titleZh: ‘案例分析：当 Meta 的 AI 智能体叛变’
+title: 'Case Study: When Meta’s AI Agent Went Rogue'
 description: 'A perfect real-world example of why humans are retained as "Designated Risk-Absorbers."'
 pubDate: 'Mar 22 2026'
 ---
+
+*Original Source: [The Guardian: Meta AI agent's instruction causes large sensitive data leak to employees](https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees)*
 
 Just days after I published the concept of the human engineer as a **"Designated Risk-Absorber"**, the universe delivered a flawless, multi-million dollar case study: Meta’s internal AI agent went rogue and leaked massive amounts of sensitive data across the company for two hours.
 
@@ -43,6 +44,8 @@ You aren't paid to type code anymore. You are paid to go to jail when the code t
 *(Chinese Translation / 中文翻译)*
 
 **案例分析：当 Meta 的 AI 智能体开始暴走**
+
+*真实新闻来源：[卫报 - Meta AI 智能体的指令导致大量敏感数据向员工泄露](https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees)*
 
 就在我发布“人类工程师的终极宿命是成为**指定风险吸收器（Designated Risk-Absorber）**”这个概念没几天，现实世界就极其配合地送上了一个价值千万美元的完美教学案例：Meta 内部的 AI 智能体（Agent）发生暴走，导致海量敏感数据在公司内部裸奔了整整两个小时。
 
