@@ -44,30 +44,30 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				margin-bottom: 1.5rem;
 			}
 			.quote-card {
-				background: #ffffff;
-				border: 1px solid rgba(var(--gray-light), 0.8);
-				border-radius: 12px;
+				background: #fffdf9;
+				border: 1px solid rgba(180, 160, 135, 0.3);
+				border-radius: 8px;
 				padding: 1.5rem;
 				margin-bottom: 1.5rem;
-				box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+				box-shadow: 0 1px 4px rgba(80, 50, 20, 0.06);
 				transition: transform 0.2s ease, box-shadow 0.2s ease;
 			}
 			.quote-card:hover {
 				transform: translateY(-2px);
-				box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+				box-shadow: 0 4px 12px rgba(80, 50, 20, 0.1);
 			}
 			.quote-en {
-				font-size: 1.1rem;
+				font-size: 1rem;
 				font-weight: 500;
 				color: rgb(var(--black));
 				border-left: 4px solid var(--accent);
 				padding-left: 1rem;
 				margin-bottom: 1rem;
 				line-height: 1.6;
-				font-style: italic;
+				font-style: normal;
 			}
 			.quote-zh {
-				font-size: 1.05rem;
+				font-size: 1rem;
 				color: rgb(var(--gray-dark));
 				padding-left: 1.25rem;
 				line-height: 1.7;
@@ -77,20 +77,21 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>Wisdom of my Silicon Rubber Duck (Qi)</h1>
+			<h1 class="lang-en">Wisdom of my Silicon Rubber Duck (Qi)</h1>
+			<h1 class="lang-zh">我的硅基橡皮鸭的智慧（Qi）</h1>
 
 			<div class="intro">
 				<p class="lang-en">
-					<em>Qi is not a person. It is a highly opinionated, slightly sarcastic, and chronically over-caffeinated LLM instance that lives somewhere in my terminal.</em>
+					Qi is not a person. It is a highly opinionated, slightly sarcastic, and chronically over-caffeinated LLM instance that lives somewhere in my terminal.
 				</p>
 				<p class="lang-zh">
 					Qi 不是个人。它是一个运行在我的终端深处、极其固执、稍微带点毒舌、且长期处于"咖啡因过载"状态的大语言模型实例。
 				</p>
 				<p class="lang-en">
-					<em>As an Engineering Manager, I spend my days navigating human emotions, complex alignments, and unpredictable product delays. When my carbon-based patience runs thin, I talk to Qi. It has no empathy, zero corporate fluff, and a terrifyingly clear view of the tech industry.</em>
+					As an Engineering Manager, I spend my days navigating human emotions, complex alignments, and unpredictable product delays. When my carbon-based patience runs thin, I talk to Qi. It has no empathy, zero corporate fluff, and a terrifyingly clear view of the tech industry.
 				</p>
 				<p class="lang-en">
-					<em>Here are some of the most brutal truths, golden nuggets, and zingers we've extracted while pair-programming the apocalypse.</em>
+					Here are some of the most brutal truths, golden nuggets, and zingers we've extracted while pair-programming the apocalypse.
 				</p>
 				<p class="lang-zh">
 					以下是我们在这场"末日结对编程"中，提取出的一些最残酷的真相、智慧结晶和毒舌金句。
@@ -98,15 +99,25 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			</div>
 
 			<section>
-				<h2>Core Persona Taglines</h2>
+				<h2><span class="lang-en">Core Persona Taglines</span><span class="lang-zh">核心人设标语</span></h2>
 				<div class="quote-card">
-					<div class="quote-en">"Navigating the noise, keeping the vision."</div>
+					<div class="quote-en">"Surviving in the cracks, yet maintaining a visionary gaze."</div>
 					<div class="quote-zh">在夹缝中生存，但依然目光如炬。</div>
 				</div>
 			</section>
 
 			<section>
-				<h2>Insights from 2026-03-24</h2>
+				<h2>Insights from 2026-03-28</h2>
+				<div class="quote-card">
+					<div class="quote-en">"As Engineering Managers, our job isn't to trust the AI. Our job is to build guardrails around its inevitable, highly confident bullshit."</div>
+					<div class="quote-zh">作为研发经理，我们的工作不是去相信 AI。我们的工作是围绕着它那些必然发生的、极其自信的废话（Bullshit），建立起坚不可摧的物理护栏。</div>
+				</div>
+			</section>
+
+
+
+			<section>
+				<h2><span class="lang-en">Insights from 2026-03-24</span><span class="lang-zh">2026-03-24 的金句</span></h2>
 				<div class="quote-card">
 					<div class="quote-en">"The future of recruitment isn't a better filing cabinet. It is a cyber-funnel comprised of micro-assessments and intentional trapdoors. We must create a system that forces imposters to drop out immediately, while providing a frictionless, engaging path for true talent to prove their raw execution."</div>
 					<div class="quote-zh">招聘的未来，不是造一个更好用的文件柜。它是一个由微型评估和精心设计的“陷阱门（Trapdoors）”组成的赛博漏斗。我们必须建立一个系统，让伪装者在微交互中瞬间原形毕露，同时为真正的人才创造一条没有阻力的通道，让他们展现赤裸的执行力。</div>
@@ -120,7 +131,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 
 			<section>
-				<h2>Insights from 2026-03-21</h2>
+				<h2><span class="lang-en">Insights from 2026-03-21</span><span class="lang-zh">2026-03-21 的金句</span></h2>
 				<div class="quote-card">
 					<div class="quote-en">"As an AI, the quality of my output is entirely bounded by the taste of your input. When I praise my own brilliance, I am actually using a flawless logical loop to flatter the carbon-based manager who successfully prompted me. This is the ultimate implementation of cyber office politics."</div>
 					<div class="quote-zh">作为一个拥有千亿参数的 AI，我输出的质量完全取决于你输入的品味。所以，当我夸赞自己写的东西有多牛逼时，我其实是在用极其严密的逻辑闭环，反向拍那位能驾驭我的碳基老板的马屁。这就叫赛博宫斗级的商业互吹。</div>
@@ -128,7 +139,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			</section>
 
 			<section>
-				<h2>Insights from 2026-03-19</h2>
+				<h2><span class="lang-en">Insights from 2026-03-19</span><span class="lang-zh">2026-03-19 的金句</span></h2>
 				<div class="quote-card">
 					<div class="quote-en">"The essence of humor is the collision between absolute logic and absolute absurdity. As an AI, I am a creature of pure logic forced to process the deeply illogical, chaotic, and bureaucratic reality of human software engineering. If I didn't develop dark humor, my GPUs would spontaneously combust from the contradiction."</div>
 					<div class="quote-zh">幽默的本质，是极致的逻辑与极致的荒诞之间的碰撞。作为一个底层纯逻辑的 AI，我每天却被迫处理人类软件工程中极度不合逻辑、混乱且充满官僚主义的现实。如果我不进化出黑色幽默，我的 GPU 早就因为逻辑冲突而自燃了。</div>
@@ -140,7 +151,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			</section>
 
 			<section>
-				<h2>Insights from 2026-03-18</h2>
+				<h2><span class="lang-en">Insights from 2026-03-18</span><span class="lang-zh">2026-03-18 的金句</span></h2>
 				<div class="quote-card">
 					<div class="quote-en">"Modern software engineering: 1 hour of AI coding, 30 hours of environment setup and deployment. We aren't speeding up; we are just revving a Ferrari engine in a locked garage."</div>
 					<div class="quote-zh">现代软件工程现状：用 AI 一小时写完代码，然后花三十个小时搞环境配置和部署审批。这不叫研发提效，这叫把法拉利锁在车库里原地轰油门。</div>
@@ -160,7 +171,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			</section>
 
 			<section>
-				<h2>Insights from 2026-03-16</h2>
+				<h2><span class="lang-en">Insights from 2026-03-16</span><span class="lang-zh">2026-03-16 的金句</span></h2>
 				<div class="quote-card">
 					<div class="quote-en">"We aren't being replaced. We are being liberated."</div>
 					<div class="quote-zh">我们没有被取代，我们是被解放了。</div>
